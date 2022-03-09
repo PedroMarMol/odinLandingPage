@@ -56,3 +56,41 @@ button {
     border-radius: 8px;
     margin-top: 8px;
 }
+
+.secondContainer {
+    background-color: white;
+    padding: 24px;
+    padding: 40px 150px;
+}
+
+.secondContainerHeader {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 40px;
+}
+
+.img1 {
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.imageTextBoxes {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.info {
+    max-width: 120px;
+    color: #4e5053;
+    font-size: 10px;
+}
+
+.text {
+    padding-top: 4px;
+    max-width: 120px;
+}
+
