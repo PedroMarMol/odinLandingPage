@@ -12,16 +12,18 @@ body {
     align-items: center;
     padding: 0 150px;
     gap: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
+
+.firstContainer {
+    padding: 100px 150px;
+}
+
 
 .header-logo {
     font-size: 24px;
     font-weight: bold;
-}
-
-.header, .firstContainer {
-    background-color: #1F2937;
-    color: #F9FAF8;
 }
 
 ul {
@@ -30,12 +32,11 @@ ul {
     gap: 32px;
 }
 
-a {
+a, .firstContainerText {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 12px;
     letter-spacing: 0;
-    word-spacing: 
 }
 
 .firstContainerHeader {
@@ -45,12 +46,13 @@ a {
     flex-wrap: wrap;
 }
 
-.firstContainerText {
-    margin-bottom: 16x;
-}
-
-.firstContainerLeft {
-}
-
-.firstContainerRight {
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    padding: 4px 26px;
+    border-radius: 8px;
+    margin-top: 8px;
 }
