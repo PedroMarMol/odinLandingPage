@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.header, .firstContainer {
+.header, .firstContainer, .fourthContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@ ul {
     gap: 32px;
 }
 
-a, .firstContainerText {
+a, .firstContainerText, .fourthContainerText {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 12px;
@@ -95,7 +95,7 @@ button {
 
 .thirdContainer {
     background-color: #E5E7EB;
-    padding: 75px 150px;
+    padding: 75px 230px;
 }
 
 .italic {
@@ -109,4 +109,23 @@ button {
     display: flex;
     justify-content: end;
 
+}
+
+.fourthContainer {
+    background-color: #3882F6;
+    margin: 100px 150px;
+    padding: 35px 70px;
+    border-radius: 6px;
+
+}
+
+.fourthContainerButton {
+    border: 2px solid white;
+    border-radius: 6px;
+    min-width: 125px;
+}
+
+.fourthContainerHeader {
+    font-weight: 900;
+    margin-bottom: 4px;
 }
