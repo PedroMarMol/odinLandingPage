@@ -8,8 +8,10 @@ body {
 
 .header, .firstContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 150px;
+    gap: 50px;
 }
 
 .header-logo {
@@ -41,6 +43,10 @@ a {
     font-weight: 900;
     display: flex;
     flex-wrap: wrap;
+}
+
+.firstContainerText {
+    margin-bottom: 16x;
 }
 
 .firstContainerLeft {
