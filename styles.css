@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.header, .firstContainer, .fourthContainer {
+.header, .firstContainer, .fourthContainer, .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,4 +128,9 @@ button {
 .fourthContainerHeader {
     font-weight: 900;
     margin-bottom: 4px;
+}
+
+.footer {
+    justify-content: center;
+    padding: 30px;
 }
